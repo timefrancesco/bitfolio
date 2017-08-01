@@ -1,0 +1,9 @@
+languageCode = "en-us"
+baseurl = "https://timefrancesco.github.io/bitfolio"
+title = "Bitfolio"
+
+[Params]
+	description = "Crypto currencies ticker & portfolio"
+	ios_id = ""
+	logo = "img/bitfolio_logo.png"
+	cover = "img/cover.jpg"
