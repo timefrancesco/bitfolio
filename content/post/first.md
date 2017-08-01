@@ -1,10 +1,11 @@
 +++
-title = " "
+title = "FAQ"
 description = " "
 weight = 1
 type = "post"
 class="post first"
 +++
+<br>
 
 ### I can't choose the currency when adding a transaction  
 Transactions use the default currency, you can set it in settings, tap the cob icon in the Portfolio screen and choose you default currency.
