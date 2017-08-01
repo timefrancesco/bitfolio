@@ -2457,7 +2457,8 @@ a.fn-item.active {
 
   blockquote {
     margin-left: 0; }
-
+    #blog-logo img {
+      max-height: 300px; }
 
   #site-head {
     -webkit-box-sizing: border-box;
@@ -2469,11 +2470,11 @@ a.fn-item.active {
     margin-bottom: 0rem; }
 
   .blog-title {
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: -1px; }
 
   .blog-description {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.5em; }
 
   .post {
@@ -2501,7 +2502,7 @@ a.fn-item.active {
 /* ==========================================================================
    10. Media Queries - Smaller than 500px
    ========================================================================== */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .fixed-nav {
     display: none; }
 
@@ -2509,7 +2510,7 @@ a.fn-item.active {
     padding-top: 20px; }
 
   #blog-logo img {
-    max-height: 300px; }
+    max-height: 160px; }
 
   .inner,
   .pagination {
