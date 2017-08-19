@@ -24,10 +24,17 @@
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;how-is-the-portfolio-graph-and-value-calculated&#34;&gt;How is the portfolio graph and value calculated?&lt;/h3&gt;
+&lt;h3 id=&#34;how-is-the-portfolio-chart-and-value-calculated&#34;&gt;How is the portfolio chart and value calculated?&lt;/h3&gt;
 
 &lt;p&gt;It&amp;rsquo;s the value of your assets at any given time.&lt;br /&gt;
 If you own 1 bitcoin, it will show the value of it over a specified period of time, starting from the day before the date specified when entering the transaction.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-portfolio-chart-doesn-t-match-the-value-above&#34;&gt;The portfolio chart doesn&amp;rsquo;t match the value above&lt;/h3&gt;
+
+&lt;p&gt;There could be some small differences between the graph and the numeric value above it.
+This is because the total value is calculated every minute with the latest currency valuation, while the chart uses the closing price up to the previous day.
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -47,13 +54,6 @@ If you own 1 bitcoin, it will show the value of it over a specified period of ti
 
 &lt;p&gt;It&amp;rsquo;s very safe and nobody except you can see your transactions in iCloud.&lt;br /&gt;
 Safety and privacy are guaranteed by Apple, nobody not even the developers can access your private database, ever.
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;why-should-i-subscribe&#34;&gt;Why should I subscribe?&lt;/h3&gt;
-
-&lt;p&gt;If you want to be able to add unlimited transactions, sync via iCloud, choose your theme, access currencies not supported by Exchanges and make the developers happy, you will need to subscribe.&lt;br /&gt;
-If you only need unlimited tickers, you can unlock it with a one time In App Purchase.
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
