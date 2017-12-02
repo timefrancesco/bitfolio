@@ -45,11 +45,11 @@
 	<meta property="og:site_name" content="Bitfolio" />
 
     
-    <header id="site-head" style="background-image: url(img/cover.jpg)">
+    <header id="site-head" >
         <div class="vertical">
             <div id="site-head-content" class="inner">
 
-                 <a id="blog-logo" href="https://timefrancesco.github.io/bitfolio"><img src="img/bitfolio_logo.png" alt="Blog Logo" /></a><br>
+                 <a id="blog-logo" href="https://timefrancesco.github.io/bitfolio"><img src="img/new-website-cover.png" alt="Blog Logo" /></a><br>
                 <h1 class="blog-title">Bitfolio</h1>
                 <h2 class="blog-description">Crypto currencies ticker &amp; portfolio</h2> 
 
@@ -103,6 +103,33 @@ This is because the total value is calculated every minute with the latest curre
 <br>
 <br></p>
 
+<h3 id="how-does-sale-and-sell-transactions-impact-calculations">How does sale and sell transactions impact calculations?</h3>
+
+<p>When adding a sale/sell transaction, the percentage gain calculate would be based on the total average price paid for the coin.
+Example: Bought 1 BTC for 100 (I wish&hellip;), sold 0.50 when value of 1 BTC was 200 with a sale price of 100, total price paid calculate will be 50.
+This will not be the correct total price paid but based on the average paid for the amount of crypto bought.
+<br>
+<br></p>
+
+<h3 id="why-i-cannot-delete-a-buy-transaction-it-says-something-about-being-linked">Why I cannot delete a buy transaction, it says something about being linked?</h3>
+
+<p>If you added an exchange transaction, it is not possible to remove the buy transaction from which the coins where then subsequentially exchanged.
+You have to first remove the exchange transaction and then you will be able to remove the buy transaction.
+<br>
+<br></p>
+
+<h3 id="the-total-percentage-in-portfolio-view-doesn-t-add-up-to-the-single-coin-percentage-in-detail-view">The total percentage in portfolio view doesn&rsquo;t add up to the single coin percentage in detail view</h3>
+
+<p>Exchange and sell transactions can impact calculations of percentage.
+<br>
+<br></p>
+
+<h3 id="why-i-need-to-add-the-coin-price-when-adding-an-exchange-transaction">Why I need to add the coin price when adding an exchange transaction?</h3>
+
+<p>When entering an exchange transaction, the price of a single coin is required to calculate the total value of your portfolio and your percentage gains.
+<br>
+<br></p>
+
 <h3 id="how-many-ticker-and-transactions-can-i-add">How many ticker and transactions can I add?</h3>
 
 <p>Int64: more than you can imagine.
@@ -145,6 +172,8 @@ Safety and privacy are guaranteed by Apple, nobody not even the developers can a
 </main>
         <footer class="site-footer">
         <div>
+        
+         <a href="http://twitter.com/bitfolioapp" title="Email bitfolioapp"> <i class='fa fa-tt fa-2x'></i></a>
         
         
         

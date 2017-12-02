@@ -5,5 +5,5 @@ title = "Bitfolio"
 [Params]
 	description = "Crypto currencies ticker & portfolio"
 	ios_id = "1264391689"
-	logo = "img/bitfolio_logo.png"
-	cover = "img/cover.jpg"
+	logo = "img/new-website-cover.png"
+	twitter = "bitfolioapp"
