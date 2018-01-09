@@ -12,15 +12,10 @@ Transactions use the default currency, you can set it in settings, tap the cob i
 <br>
 <br>
 
-### How is the portfolio chart and value calculated?
-It's the value of your assets at any given time.  
-If you own 1 bitcoin, it will show the value of it over a specified period of time, starting from the day before the date specified when entering the transaction.
-<br>
-<br>
-
-### The portfolio chart doesn't match the value above
-There could be some small differences between the graph and the numeric value above it. 
-This is because the total value is calculated every minute with the latest currency valuation, while the chart uses the closing price up to the previous day.
+### The value displayed in Bitfolio doesn't reflect what I see on the exchange
+Bitfolio uses the exchange APIs to get the current value of the coin, but there might be few cases where they differ such as:  
+* If the selected an exchange doesn't support all the coins in your portfolio, Bitfolio gets the current price from Coinmarketcap.com
+* Exchanges display bid and ask value, usually Bitfolio tries to get the value of the last transaction made, which could be either buy or sell.
 <br>
 <br>
 
@@ -37,13 +32,8 @@ You have to first remove the exchange transaction and then you will be able to r
 <br>
 <br>
 
-### The total percentage in portfolio view doesn't add up to the single coin percentage in detail view
+### The total percentage in the Portoflio screen doesn't add up to the single coin percentage in the Assets screen
 Exchange and sell transactions can impact calculations of percentage.
-<br>
-<br>
-
-### Why I need to add the coin price when adding an exchange transaction?
-When entering an exchange transaction, the price of a single coin is required to calculate the total value of your portfolio and your percentage gains.
 <br>
 <br>
 
