@@ -24,17 +24,11 @@
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;how-is-the-portfolio-chart-and-value-calculated&#34;&gt;How is the portfolio chart and value calculated?&lt;/h3&gt;
+&lt;h3 id=&#34;the-value-displayed-in-bitfolio-doesn-t-reflect-what-i-see-on-the-exchange&#34;&gt;The value displayed in Bitfolio doesn&amp;rsquo;t reflect what I see on the exchange&lt;/h3&gt;
 
-&lt;p&gt;It&amp;rsquo;s the value of your assets at any given time.&lt;br /&gt;
-If you own 1 bitcoin, it will show the value of it over a specified period of time, starting from the day before the date specified when entering the transaction.
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-portfolio-chart-doesn-t-match-the-value-above&#34;&gt;The portfolio chart doesn&amp;rsquo;t match the value above&lt;/h3&gt;
-
-&lt;p&gt;There could be some small differences between the graph and the numeric value above it.
-This is because the total value is calculated every minute with the latest currency valuation, while the chart uses the closing price up to the previous day.
+&lt;p&gt;Bitfolio uses the exchange APIs to get the current value of the coin, but there might be few cases where they differ such as:&lt;br /&gt;
+* If the selected an exchange doesn&amp;rsquo;t support all the coins in your portfolio, Bitfolio gets the current price from Coinmarketcap.com
+* Exchanges display bid and ask value, usually Bitfolio tries to get the value of the last transaction made, which could be either buy or sell.
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -53,15 +47,9 @@ You have to first remove the exchange transaction and then you will be able to r
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;the-total-percentage-in-portfolio-view-doesn-t-add-up-to-the-single-coin-percentage-in-detail-view&#34;&gt;The total percentage in portfolio view doesn&amp;rsquo;t add up to the single coin percentage in detail view&lt;/h3&gt;
+&lt;h3 id=&#34;the-total-percentage-in-the-portoflio-screen-doesn-t-add-up-to-the-single-coin-percentage-in-the-assets-screen&#34;&gt;The total percentage in the Portoflio screen doesn&amp;rsquo;t add up to the single coin percentage in the Assets screen&lt;/h3&gt;
 
 &lt;p&gt;Exchange and sell transactions can impact calculations of percentage.
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;why-i-need-to-add-the-coin-price-when-adding-an-exchange-transaction&#34;&gt;Why I need to add the coin price when adding an exchange transaction?&lt;/h3&gt;
-
-&lt;p&gt;When entering an exchange transaction, the price of a single coin is required to calculate the total value of your portfolio and your percentage gains.
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
