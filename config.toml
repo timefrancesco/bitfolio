@@ -3,7 +3,10 @@ baseurl = "https://timefrancesco.github.io/bitfolio"
 title = "Bitfolio"
 
 [Params]
-	description = "Crypto currencies ticker & portfolio"
+	description = "Monitor your crypto portfolio and track your investment"
 	ios_id = "1264391689"
 	logo = "img/new-website-cover.png"
 	twitter = "bitfolioapp"
+	facebook = "bitfolioapp"
+	bitbucket = "used to show the facebook page icon"
+	flickr = "useless it's just used to show the info image so that directs to FAQ"

@@ -1852,7 +1852,7 @@ a.btn { /* App Store button and other buttons */
   height: 20px; }
 
 a.btn:hover {
-  background: var(--whiteColor); }
+  background: #EF9E3C; }
 
 #header-arrow {
   font-size: 30px;
@@ -2106,7 +2106,7 @@ ul li {
   letter-spacing: -1px; }
 
 .blog-description {
-  margin: -10px;
+  margin: 20px;
   font-size: 1.4rem;
   line-height: 0.5rem;
   font-weight: 400;
