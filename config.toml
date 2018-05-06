@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseurl = "//timefrancesco.github.io/bitfolio"
+baseurl = "https://timefrancesco.github.io/bitfolio"
 title = "Bitfolio"
 
 [Params]
