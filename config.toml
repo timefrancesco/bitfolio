@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseurl = "https://timefrancesco.github.io/bitfolio"
+baseurl = "//timefrancesco.github.io/bitfolio"
 title = "Bitfolio"
 
 [Params]
@@ -8,5 +8,4 @@ title = "Bitfolio"
 	logo = "img/new-website-cover.png"
 	twitter = "bitfolioapp"
 	facebook = "bitfolioapp"
-	bitbucket = "used to show the facebook page icon"
 	flickr = "useless it's just used to show the info image so that directs to FAQ"
