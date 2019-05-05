@@ -1,0 +1,4 @@
+Date,Symbol,Quantity,Price,Exc_From_Crypto,Exc_To_Crypto,Exc_From_Amount,Exc_To_Amount
+17-04-2019,BTC,1,4000,,,,
+17-04-2019,BTC,-0.2,-1000,,,,
+17-04-2019,ETH,10,,BTC,ETH,0.1,10
