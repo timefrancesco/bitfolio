@@ -6,7 +6,7 @@
 :root{
     --whiteColor:#FFFFFF;
     --blackColor: #000000;
-    --bitfolioBlueColor: #19A8FF;
+    --bitfolioBlueColor: #0432FF;
 }
 
 /*!
@@ -23,9 +23,10 @@
   font-style: normal; }
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 10px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
+  color: var(--bitfolioBlueColor);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1830,13 +1831,13 @@ a:hover {
 
 a.btn { /* App Store button and other buttons */
   text-decoration: none;
-  background-color: var(--bitfolioBlueColor);
+  background-color: var(--whiteColor);
   border-radius: 10px;
   border-style: solid;
-  border-color: var(--whiteColor);
+  border-color: var(--bitfolioBlueColor);
   border-width: 1px;
   -webkit-border-radius: 7px;
-  color: var(--whiteColor);
+  color: var(--bitfolioBlueColor);
   display: inline-block;
   font-size: 20px;
   letter-spacing: 1px;
@@ -1852,7 +1853,7 @@ a.btn { /* App Store button and other buttons */
   height: 20px; }
 
 a.btn:hover {
-  background: #EF9E3C; }
+  background: #FFFFFF; }
 
 #header-arrow {
   font-size: 30px;
@@ -2073,8 +2074,8 @@ ul li {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: var(--whiteColor); /*text color */
-  background: var(--bitfolioBlueColor) no-repeat center center; /*first page background color */
+  color: var(--blackColor); /*text color */
+  background: var(--whiteColor) no-repeat center center; /*first page background color */
   background-size: cover; }
 
 #blog-logo img {
@@ -2370,7 +2371,7 @@ a.fn-item.active {
   line-height: 1.5em;
   color: #BBC7CC;
   text-align: center;
-  background: var(--bitfolioBlueColor); }
+  background: var(--whiteColor); }
 
 .site-footer a {
   color: var(--whiteColor);
@@ -2470,7 +2471,7 @@ a.fn-item.active {
     margin-bottom: 0rem; }
 
   .blog-title {
-    font-size: 3rem;
+    font-size: qrem;
     letter-spacing: -1px; }
 
   .blog-description {

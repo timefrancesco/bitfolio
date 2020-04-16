@@ -6,7 +6,7 @@
 :root{
     --whiteColor:#FFFFFF;
     --blackColor: #000000;
-    --bitfolioBlueColor: #19A8FF;
+    --bitfolioBlueColor: #0432FF;
 }
 
 /*!
@@ -1830,13 +1830,13 @@ a:hover {
 
 a.btn { /* App Store button and other buttons */
   text-decoration: none;
-  background-color: var(--bitfolioBlueColor);
+  background-color: #EF9E3C var(--whiteColor);
   border-radius: 10px;
   border-style: solid;
-  border-color: var(--whiteColor);
+  border-color: var(--bitfolioBlueColor);
   border-width: 1px;
   -webkit-border-radius: 7px;
-  color: var(--whiteColor);
+  color: var(--bitfolioBlueColor);
   display: inline-block;
   font-size: 20px;
   letter-spacing: 1px;
@@ -2074,7 +2074,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: var(--whiteColor); /*text color */
-  background: var(--bitfolioBlueColor) no-repeat center center; /*first page background color */
+  background: var(--whiteColor) no-repeat center center; /*first page background color */
   background-size: cover; }
 
 #blog-logo img {
@@ -2370,7 +2370,7 @@ a.fn-item.active {
   line-height: 1.5em;
   color: #BBC7CC;
   text-align: center;
-  background: var(--bitfolioBlueColor); }
+  background: var(--whiteColor); }
 
 .site-footer a {
   color: var(--whiteColor);
